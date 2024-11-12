@@ -69,6 +69,7 @@ main {
 
 .new-plant-form button {
   width: 150px;
+  color: green;
 }
 
 .searchbar {
@@ -112,6 +113,28 @@ input:focus {
 .card button {
   margin-top: 0.5rem;
 }
+.plant-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 8px;
+  text-align: center;
+}
+
+.plant-card.sold-out {
+  background-color: blue;
+}
+
+.plant-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+button:disabled {
+  background-color: green;
+}
+
+
 
 @media (min-width: 768px) {
   .cards {

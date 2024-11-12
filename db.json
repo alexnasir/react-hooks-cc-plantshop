@@ -41,6 +41,14 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "red",
+      "price": "5.12",
+      "image": "https://m.media-amazon.com/images/I/61mMytOBsJL._SL1024_.jpg",
+      "sold_out": false,
+      "id": 15
     }
   ]
 }
+    
